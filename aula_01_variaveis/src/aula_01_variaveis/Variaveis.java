@@ -12,6 +12,7 @@ public class Variaveis {
 		int numero2 = 5;
 		float numero3, numero4;
 		String nome;
+	
 		
 		System.out.println("Variável numero1 = " + numero1);
 		
