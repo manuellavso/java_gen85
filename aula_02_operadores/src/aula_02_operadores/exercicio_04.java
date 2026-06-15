@@ -18,7 +18,6 @@ public class exercicio_04 {//Atividade do módulo 5.
 		float produto1 = numero1 * numero2;
 		System.out.printf("O produto dos dois primeiros números é: %.1f", produto1);
 		
-		
 		System.out.print("\n O valor do terceiro número é: ");
 		numero3 = leia.nextFloat();
 		System.out.print("O valor do quarto número é: ");
