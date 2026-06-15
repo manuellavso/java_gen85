@@ -30,7 +30,7 @@ public class Exercicio_08 {//Condicional Switch Case.
 		case 2:
 			System.out.print("Digite o valor a ser sacado: R$");
 			saque = leia.nextFloat();
-			if(saque >1000) {
+			if(saque > saldo) {
 				System.out.println("Saldo insuficiente!");
 			}else {
 				System.out.printf("\n Saldo atual: %.2f | Saque: %.2f | Novo saldo: %.2f", saldo, saque, saldo-saque);
