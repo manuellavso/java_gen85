@@ -14,7 +14,7 @@ public class Exercicio_04 {//Condicional IF.
 		palavra1 = leia.next();	
 		System.out.print("Se VERTEBRADO: ave ou mamifero?  |Se INVERTEBRADO: inseto ou anelideo? ");
 		palavra2 = leia.next();
-		System.out.print("AVE: carnívoro ou onívoro? |MAMIFERO:onivoro ou herbivoro? |INSETO:hematofago ou herbivoro? |ANELIDEO:hematogago ou onivoro? ");
+		System.out.print("AVE: carnívoro ou onívoro? |MAMIFERO:onivoro ou herbivoro? |INSETO:hematofago ou herbivoro? |ANELIDEO:hematofago ou onivoro? ");
 		palavra3 = leia.next();	
 		
 		String resultado = palavra1 + palavra2 + palavra3;
