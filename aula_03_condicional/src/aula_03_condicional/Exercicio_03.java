@@ -29,7 +29,6 @@ public class Exercicio_03 {//Condicional IF.
 			System.out.printf("%s não está apto(a) para doar sangue", nome);
 		}
 		
-		
 		leia.close();
 	}
 

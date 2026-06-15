@@ -12,9 +12,9 @@ public class Exercicio_04 {//Condicional IF.
 		
 		System.out.print("Digite se o animal é vertebrado ou invertebrado: ");
 		palavra1 = leia.next();	
-		System.out.print("Digite se o animal é ave ou mamífero: ");
+		System.out.print("Se VERTEBRADO: ave ou mamifero?  |Se INVERTEBRADO: inseto ou anelideo? ");
 		palavra2 = leia.next();
-		System.out.print("Digite se o animal é carnívoro ou onívoro: ");
+		System.out.print("AVE: carnívoro ou onívoro? |MAMIFERO:onivoro ou herbivoro? |INSETO:hematofago ou herbivoro? |ANELIDEO:hematogago ou onivoro? ");
 		palavra3 = leia.next();	
 		
 		String resultado = palavra1 + palavra2 + palavra3;
