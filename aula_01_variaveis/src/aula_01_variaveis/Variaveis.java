@@ -34,6 +34,7 @@ public class Variaveis {
 		
 		System.out.println("Olá " + nome + ",seja bem-vindo(a)!");
 		
+		leia.close();
 	}
 
 }

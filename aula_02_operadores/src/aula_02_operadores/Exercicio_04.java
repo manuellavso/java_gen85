@@ -2,7 +2,7 @@ package aula_02_operadores;
 
 import java.util.Scanner;
 
-public class exercicio_04 {//Atividade do módulo 5.
+public class Exercicio_04 {//Atividade do módulo 5.
 
 	public static void main(String[] args) {
 
