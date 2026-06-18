@@ -4,7 +4,8 @@ import java.util.ArrayList;
 import java.util.Comparator;
 
 public class CollectionArrayList {
-
+//Pode escolher o objeto a ser removido indicando ou pelo indice.
+	
 	public static void main(String[] args) {
 
 		ArrayList<Integer> numeros = new ArrayList<Integer>();
