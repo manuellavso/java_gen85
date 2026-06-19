@@ -33,7 +33,7 @@ public class CollectionFila {//Queue
 		}
 		
 		
-		
+		leia.close();
 	}
 
 }

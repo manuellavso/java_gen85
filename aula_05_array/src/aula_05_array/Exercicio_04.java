@@ -4,40 +4,41 @@ import java.util.Scanner;
 
 public class Exercicio_04 {//Matrizes 
 
-	public static void main(String[] args) {
+public static void main(String[] args) {
 		
 		Scanner leia = new Scanner(System.in);
 
-		float matrizClasse[][] = new float[10][4];
+		float matrizClasse[][] = new float[2][4];
 		float soma;
 		float media = 0;
-		float vetorMedias [] = new float [10];
+		float vetorMedias [] = new float [2];
 
 		
 		
-		for(int linha = 0; linha < matrizClasse.length; linha++) {
+		for(int aluno = 0; aluno < matrizClasse.length; aluno++) {
 				soma = 0;
-			for(int coluna = 0; coluna < matrizClasse[linha].length; coluna++) {
-				System.out.printf("\nDigite um número para a posição [%d][%d]: ", linha, coluna);
-				 matrizClasse[linha][coluna] = leia.nextFloat();	
-					soma += matrizClasse[linha][coluna];	
+			for(int bimestre = 0; bimestre < matrizClasse[aluno].length; bimestre++) {
+				System.out.printf("\nDigite um número para a posição [%d][%d]: ", aluno, bimestre);
+				 matrizClasse[aluno][bimestre] = leia.nextFloat();	
+					soma += matrizClasse[aluno][bimestre];	
 					
 					
 			}
 				media = soma/4;
 			
-				vetorMedias [linha] = media;
+				vetorMedias [aluno] = media;
 			
-				System.out.printf("\nVetor média[%d] = %.1f", linha, media);
+				System.out.printf("\nA média do aluno [%d] é = %.1f", aluno, media);
 
 
 		}
 		
 		for(int contador = 0; contador < vetorMedias.length; contador++) {
-			System.out.printf("\nVetor Medias[%d] = %.1f", contador, vetorMedias[contador]);
+			System.out.printf("\nAs médias dos alunos são[%d] = %.1f    ", contador, vetorMedias[contador]);
 		}
 		
 		leia.close();
 	}
+
 }
 	
