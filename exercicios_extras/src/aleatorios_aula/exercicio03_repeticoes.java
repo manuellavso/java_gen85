@@ -1,4 +1,4 @@
-package exercicios_extras;
+package aleatorios_aula;
 
 import java.util.Scanner;
 

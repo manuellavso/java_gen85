@@ -67,6 +67,8 @@ public class Exercicio2 {
 				System.out.printf("\nA média geral das notas é: %.2f ", media);	
 				}else if(alunos.isEmpty()) {
 					System.out.println("Não há notas cadastrados - null");
+				}else if(opcao < 1 || opcao > 3){
+					System.out.println("Número inválido!");
 				}
 			}do {//Parar quando o usuário digitar N
 				System.out.println("⫸ Deseja continuar? (S/N) ");
