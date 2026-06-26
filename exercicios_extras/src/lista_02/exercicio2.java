@@ -58,9 +58,9 @@ public class exercicio2 {//ArrayList
 				  }
 		default:
 			System.out.println("Erro, escolha um valor de 0 a 4.");
-			}
+			} leia.close();
 		}
-		
+	
 	}
 	public static void encerrar() {
 		System.out.println("Porgrama finalizado!");
